@@ -1,6 +1,15 @@
 {
   "name": "adopt-me",
   "version": "1.0.0",
-  "dependencies": {
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js, jsx}\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "prettier": "^2.7.1"
   }
 }
